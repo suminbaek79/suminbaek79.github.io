@@ -1,3 +1,4 @@
+/* Navigation & Common Structural Layout */
 #main-nav ul {
   list-style: none;
   margin: 0;
@@ -33,6 +34,9 @@
   color: #ffffff;
 }
 
+/* Index Page */
+
+/* Style 1 */
 body {
   margin: 0;
   padding: 0;
@@ -42,6 +46,7 @@ body {
   line-height: 1.7;
 }
 
+/* Style 2 */
 #content-wrapper {
   width: 88%;
   max-width: 960px;
@@ -52,6 +57,7 @@ body {
   border-radius: 8px;
 }
 
+/* Style 3 */
 #main-content h1,
 h1 {
   font-size: 2.3rem;
@@ -61,6 +67,7 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
+/* Style 4 */
 h2 {
   font-size: 1.5rem;
   color: #2b6cb0;
@@ -69,6 +76,7 @@ h2 {
   margin-top: 2rem;
 }
 
+/* Style 5 */
 .logo-img {
   max-width: 45%;
   height: auto;
@@ -80,6 +88,22 @@ h2 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
+/* Style 6 */
+p {
+  font-size: 1.05rem;
+  color: #4a5568;
+  margin-bottom: 1.2rem;
+}
+
+/* Style 7 */
+ul {
+  padding-left: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Resume Page */
+
+/* Style 8 */
 #page-wrapper {
   width: 960px;
   margin: 2rem auto;
@@ -89,6 +113,7 @@ h2 {
   padding: 2.5rem;
 }
 
+/* Style 9 */
 h3 {
   font-size: 1.2rem;
   color: #1a365d;
@@ -99,12 +124,13 @@ h3 {
   border-radius: 0 4px 4px 0;
 }
 
+/* Style 10 */
 ol {
-  padding-left: 1.5rem;
-  color: #4a5568;
+  padding-left: 1.8rem;
+  color: #2d3748;
 }
 
-
+/* Style 11 */
 .diagram-img {
   max-width: 320px;
   display: block;
@@ -113,6 +139,21 @@ ol {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Style 12 */
+strong {
+  font-weight: 700;
+  color: #1a365d;
+}
+
+/* Style 13 */
+li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* page3 */
+
+/* Style 14 */
 .image-r {
   float: right;
   border: 2px solid #2b6cb0;
@@ -123,6 +164,7 @@ ol {
   border-radius: 6px;
 }
 
+/* Style 15 */
 iframe {
   border: 2px solid #1a365d;
   border-radius: 8px;
@@ -132,6 +174,7 @@ iframe {
   max-width: 100%;
 }
 
+/* Style 16 */
 #footer {
   background-color: #1a365d;
   height: 70px;
@@ -140,4 +183,16 @@ iframe {
   line-height: 70px;
   clear: both;
   margin-top: 3rem;
+}
+
+/* Style 17 */
+a {
+  color: #2b6cb0;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #1a365d;
+  text-decoration: underline;
 }
