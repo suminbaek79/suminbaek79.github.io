@@ -155,14 +155,14 @@ li {
 /* page3 */
 
 /* Style 14 */
-.image-r {
-  float: right;
-  border: 2px solid #2b6cb0;
-  width: 280px;
-  padding: 0.5rem;
-  background-color: #ffffff;
-  margin: 0.5rem 0 1rem 1.5rem;
-  border-radius: 6px;
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #1a365d;
+  background-color: #f0f4f8;
+  padding: 1rem;
+  border-left: 4px solid #2b6cb0;
+  border-radius: 4px;
 }
 
 /* Style 15 */
