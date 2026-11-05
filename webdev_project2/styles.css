@@ -192,6 +192,7 @@ a {
   transition: color 0.2s ease-in-out;
 }
 
+/* Style 18 */
 a:hover {
   color: #1a365d;
   text-decoration: underline;
