@@ -176,24 +176,29 @@ iframe {
 }
 
 /* Style 16 */
-#footer {
-  background-color: #1a365d;
-  height: 70px;
-  color: #fdfbf7;
-  text-align: center;
-  line-height: 70px;
-  clear: both;
-  margin-top: 3rem;
+.page3-page #content-wrapper ul li {
+  background-color: #f8fafc;
+  padding: 0.6rem 1rem;
+  margin-bottom: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
 }
 
 /* Style 17 */
+#footer p {
+  margin: 0;
+  line-height: 70px;
+  color: #fdfbf7;
+}
+
+/* Style 18 */
 a {
   color: #2b6cb0;
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 
-/* Style 18 */
+/* Style 19 */
 a:hover {
   color: #1a365d;
   text-decoration: underline;
