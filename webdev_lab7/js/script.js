@@ -4,7 +4,7 @@ function init(){
   var textOutput = document.getElementById('textoutput');
 
   entryButton.addEventListener('click', function() {
-    var inputValue = entryInput.ariaValueMax;
+    var inputValue = entryInput.value;
 
     alert("Sumin Baek: " + inputValue);
 
