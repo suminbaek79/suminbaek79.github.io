@@ -27,7 +27,7 @@ function initMap() {
   });
 
   marker.addListener("click", function () {
-    infoWindow.open(map, market);
+    infoWindow.open(map, marker);
   });
 }
   document.addEventListener("DOMContentLoaded", function () {
@@ -35,7 +35,7 @@ function initMap() {
 
     if (questionBtn) {
       questionBtn.addEventListener("click", function () {
-        alert("If you have questions, contact me at: \sbaek9@hawk.illinoistech.edu");
+        alert("If you have questions, contact me at: \nsbaek9@hawk.illinoistech.edu");
       });
     }
   });
