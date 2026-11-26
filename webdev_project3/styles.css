@@ -19,12 +19,11 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 #main-nav ul li {
   width: 100%;
-  display: block;
+  text-align: center;
   border-bottom: 1px solid #2b6cb0;
 }
 
@@ -261,7 +260,7 @@ a:hover {
   }
 
   #main-nav ul li a {
-    padding: 1rem 0.9rem;
+    padding: 1rem 1.5rem;
     font-size: 1.05rem;
   }
 
