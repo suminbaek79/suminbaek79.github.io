@@ -35,7 +35,7 @@ function initMap() {
 
     if (questionBtn) {
       questionBtn.addEventListener("click", function () {
-        alert("If you have questions, contact me at: \nsbaek9@hawk.illinoistech.edu");
+        alert("If you have questions, contact me at:\nsbaek9@hawk.illinoistech.edu");
       });
     }
   });
